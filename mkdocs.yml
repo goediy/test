@@ -1,0 +1,18 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - テスト: test.md
+
+theme:
+#  name: material
+  name: readthedocs
+  language: 'ja'
+extra:
+  search:
+    language: 'jp'
+
+markdown_extensions:
+ - pymdownx.arithmatex  
+extra_javascript:
+ - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
